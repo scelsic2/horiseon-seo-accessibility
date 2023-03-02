@@ -1,13 +1,18 @@
+/*Reordered to follow page structure*/
+
+/*RESETS*/
+/*Asterisk applies properties to all elements in the html*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Applies background color to the body*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Applies properties to the corresponding class*/
 .header-nav-container {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,12 +20,14 @@ body {
     color: #ffffff;
 }
 
+/*Applies properties to the header*/
 header {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
+/*Applies properties to the corresponding class*/
 .top-navigation-container {
     padding-top: 15px;
     margin-right: 20px;
@@ -29,24 +36,29 @@ header {
     font-size: 20px;
 }
 
+/*Applies properties to the corresponding class*/
 .top-navigation-ul {
     list-style-type: none;
 }
 
+/*Applies properties to the corresponding class*/
 .top-navigation-li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Applies properties to all hyperlinks*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Applies font size to all paragraph elements*/
 p {
     font-size: 16px;
 }
 
+/*Applies properties to the corresponding class*/
 .main-image-div {
     height: 800px;
     width: 100%;
@@ -56,7 +68,14 @@ p {
     background-position: center;
 }
 
+/*Applies properties to the corresponding class*/
+.offerings-container {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
+/*Applies properties to the corresponding class*/
 .offering-div {
     margin-bottom: 20px;
     padding: 50px;
@@ -66,26 +85,31 @@ p {
     color: #ffffff;
 }
 
+/*Removed repeating references to h2 classes, when h2 selector would suffice*/
+/*Applies properties to all h2's*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Applies properties to the corresponding class*/
 .offering-image-div {
     max-height: 200px;
 }
 
+/*Applies properties to the corresponding class*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Applies properties to the corresponding class*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.offerings-container {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*Applies properties to the corresponding class*/
 .benefits-container {
     margin-right: 20px;
     padding: 20px;
@@ -97,37 +121,25 @@ p {
     background-color: #2589bd;
 }
 
+/*Applies properties to the corresponding class*/
 .benefit-div{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Applies properties to the corresponding class*/
 .benefit-div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Applies properties to the corresponding class*/
 .benefit-div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Applies properties to the footer*/
 footer {
     padding: 30px;
     clear: both;
@@ -135,6 +147,7 @@ footer {
     text-align: center;
 }
 
+/*Applies font properties to the corresponding class*/
 .footer-title {
     font-size: 20px;
     font-weight: bold;
